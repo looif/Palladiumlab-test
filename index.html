@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palladiumlab</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="header__wrapper">
+      <div class="header__map">
+        <img class="header__map-img" src="/img/map.svg" alt="Карта">
+      </div>
+      <div class="header__pages">
+        <div class="header__pages-url active">Главная</div>
+        <div class="header__pages-url">О компании</div>
+        <div class="header__pages-url">Услуги</div>
+      </div>
+      <div class="header__logo">
+        <img src="/img/logo.svg" alt="Palladiumlab" title="Palladiumlab">
+      </div>
+      <div class="header__pages">
+        <div class="header__pages-url">Цены</div>
+        <div class="header__pages-url">Портфолио</div>
+        <div class="header__pages-url">Контакты</div>
+      </div>
+      <div class="header__phone">
+        <img class="header__phone-img" src="/img/phone.svg" alt="Телефон">
+      </div>
+    </div>
+  </div>
+
+  <div class="main">
+    <h1 class="main__header">Ремонт <span class="main__header-stroke">и</span> дизайн<br><span
+        class="main__header-stroke">в Москве и Московской области</span></h1>
+    <a class="main__button">Оставить заявку</a>
+    <div class="main-container">
+      <div class="main-container__wrapper">
+        <div class="main-container__block">Услуги по ремонту</div>
+        <div class="main-container__block">Виды работ</div>
+        <div class="main-container__block">Дизайн интерьера</div>
+        <div class="main-container__block">Ремонт помещений</div>
+        <a href="#exampleDown" class="main-container__down">
+          <img src="/img/main-down.svg" alt="Вниз">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="exampleDown" class="example">
+    <div class="example__header">Примеры <span class="example__header-stroke">выполненных</span> работ</div>
+    <div class="example-grid__wrapper">
+      <div class="example-grid">
+        <img src="/img/example-1.png" alt="Новостройка">
+        <div class="example-grid__name">Новостройка</div>
+      </div>
+      <div class="example-grid">
+        <img src="/img/example-2.png" alt="Новостройка">
+        <div class="example-grid__name">Новостройка</div>
+      </div>
+      <div class="example-grid">
+        <img src="/img/example-3.png" alt="Вторичка">
+        <div class="example-grid__name">Вторичка</div>
+      </div>
+      <div class="example-grid">
+        <img src="/img/example-4.png" alt="Вторичка">
+        <div class="example-grid__name">Вторичка</div>
+      </div>
+      <div class="example-grid">
+        <img src="/img/example-5.png" alt="Новостройка">
+        <div class="example-grid__name">Новостройка</div>
+      </div>
+      <div class="example-grid">
+        <img src="/img/example-6.png" alt="Вторичка">
+        <div class="example-grid__name">Вторичка</div>
+      </div>
+      <div class="example-grid">
+        <img src="/img/example-7.png" alt="Вторичка">
+        <div class="example-grid__name">Вторичка</div>
+      </div>
+      <div class="example-grid">
+        <img src="/img/example-8.png" alt="Новостройка">
+        <div class="example-grid__name">Новостройка</div>
+      </div>
+    </div>
+    <a class="example__button">Все проекты</a>
+  </div>
+
+  <div class="contacts wrapper">
+    <div class="contacts__header">Связаться <span class="contacts__header-stroke">с нами</span></div>
+    <div class="contacts-grid__wrapper">
+      <div class="contacts-grid">
+        <div class="contacts-grid__contant">
+          <span class="contacts-grid__contant-bold">Офис</span><br><br>
+          Москва, ул. Уличная, д. 1, оф. 1
+        </div>
+        <div class="contacts-grid__contant">
+          <span class="contacts-grid__contant-bold">E-mail</span><br><br>
+          company@company.ru
+        </div>
+        <div class="contacts-grid__contant">
+          <span class="contacts-grid__contant-bold">Социальные сети</span><br><br>
+          <div class="contacts-grid__social">
+            <div class="contacts-grid__social-block"></div>
+            <div class="contacts-grid__social-block"></div>
+            <div class="contacts-grid__social-block"></div>
+          </div>
+        </div>
+      </div>
+      <div class="contacts-grid">
+        <div class="contacts-grid__contant">
+          <span class="contacts-grid__contant-bold">Режим работы</span><br><br>
+          Пн-Вт: 10<sup>00</sup> — 19<sup>00</sup>; Сб-Вс: 10<sup>00</sup> — 15<sup>00</sup>
+        </div>
+        <div class="contacts-grid__contant">
+          <span class="contacts-grid__contant-bold">Телефон</span><br><br>
+          8 (800) 900-00-00
+        </div>
+      </div>
+      <div class="contacts-grid">
+        <div class="contacts-grid__contant">
+          <span class="contacts-grid__contant-bold">Остались вопросы?</span><br><br><br>
+          <form action="" method="" name="question" class="contacts-grid__form">
+            <div class="form__group">
+              <input type="input" class="form__field" placeholder="Имя" name="name" id='name' required />
+              <label for="name" class="form__label">Ваше имя</label>
+            </div>
+            <div class="form__group">
+              <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+              <label for="name" class="form__label">Телефон / E-mail</label>
+            </div>
+            <div class="form__group">
+              <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+              <label for="name" class="form__label">Ваше сообщение</label>
+            </div>
+            <div class="contacts-grid__privacy">Нажимая на кнопку «Получить консультацию», вы соглашаетесь
+              на <a href="#" class="contacts-grid__privacy-bold">обработку персональных данных</a></div>
+            <a class="contacts-grid__button" type="submit">Получить консультацию</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer wrapper">
+    <hr 1.5px color="#222222" style="margin-top: 85px;">
+    <div class="footer-flex__wrapper">
+      <div class="footer-flex"><span class="footer-flex__bold">© 2022 Сompany.</span> Соглашение об обработке
+        персональных данных и политика конфиденциальности</div>
+      <div class="footer-flex">Сделано в <span class="footer-flex__bold">Palladiumlab</span></div>
+    </div>
+  </div>
+
+</body>
+
+</html>
